@@ -1,6 +1,8 @@
 <?php	
 require 'model/customerModel.php';
 
+// si l'user submit le formulaire
+
 if(!empty($_POST) && isset($_POST["email"])){
 	$filled_post = array_filter($_POST);
 
